@@ -1,0 +1,60 @@
+ /*  p::first-letter{
+    font-size: 40px;
+    color: red;
+}
+
+p::first-line{
+    background-color: orange;
+}
+
+ul li::marker{
+    color: red;
+}
+
+p::selection{
+    background-color: red;
+    color: orange;
+}
+
+p::after{
+    content: "😁";
+}
+
+p::before{
+    content: "❤";
+}
+
+/* psedo class selector */
+
+/* dynamic psedu selector --> :
+structural psedo selector  
+
+p:hover{
+    background-color: blueviolet;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: aqua;
+}  */
+
+body{
+    background-image: url("./Altja_jõgi_Lahemaal.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h1{
+    /* background-color: red;  */
+    background: linear-gradient(to left,skyblue,green);
+}
+
+p{
+    background: linear-gradient(to right,skyblue,green);
+}

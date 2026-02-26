@@ -1,0 +1,12 @@
+Playwright commands :
+npm init playwright@latest => To install
+npx playwright test
+npx playwright test (tests/test2.spec.ts)->reative path 
+npx playwright test tests/test2.spec.ts --headed  => To open in browser
+npx playwright show-report  => To show report
+npx playwright test -g "test2" 
+npx playwright test --project=chromium 
+npx playwright test --project=chromium --headed
+npx playwright test tests/annotation.spec.ts --project=chromium
+npx playwright test tests/test2.spec.ts --debug
+npx playwright show-report --port=9999

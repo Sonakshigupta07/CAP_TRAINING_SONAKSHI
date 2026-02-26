@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial,sans-serif;
+        }
+
+        body{
+             background: #f4f4f4;
+        }
+
+        header{
+            background: black;
+            color: white;
+            padding: 20px 60px;
+        }
+
+        .logo{
+            font-size: 24px;
+        }
+
+        .content-container{
+            max-width: 600px;
+            background-color: white;
+            margin: 60px auto;
+            padding: 30px;
+            border-radius: 6px;
+        }
+
+        .content-container h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .content-container input,
+        .content-container textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 12px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea{
+            resize: none;
+            height: 120px;
+        }
+
+        button{
+            width: 100%;
+            padding: 10px;
+            background : #ff9800;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background: #ff9800;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeSpark</h2>
+    </header>
+
+    <div class="content-container">
+        <h1>Contact Us</h1>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <input type="text" placeholder="Subject">
+
+        <textarea placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

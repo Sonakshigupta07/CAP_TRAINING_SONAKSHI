@@ -1,0 +1,38 @@
+/* #box2{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+}
+
+#box1{
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+}  */
+
+
+#parent{
+    height: 250px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#child{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border: 2px solid black;
+}

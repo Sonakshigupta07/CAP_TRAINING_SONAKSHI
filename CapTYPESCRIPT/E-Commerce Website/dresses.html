@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dresses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Dresses Collection</h2>
+
+<div class="product-container">
+
+  <div class="product">
+    <img src="images/dress1.jpg" alt="Dress 1">
+    <p>Dress 1</p>
+    <div class="counter">
+      <button onclick="changeQty('Dress 1', -1)">-</button>
+      <span id="Dress 1">0</span>
+      <button onclick="changeQty('Dress 1', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="images/dress2.jpg" alt="Dress 2">
+    <p>Dress 2</p>
+    <div class="counter">
+      <button onclick="changeQty('Dress 2', -1)">-</button>
+      <span id="Dress 2">0</span>
+      <button onclick="changeQty('Dress 2', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="images/dress3.jpg" alt="Dress 3">
+    <p>Dress 3</p>
+    <div class="counter">
+      <button onclick="changeQty('Dress 3', -1)">-</button>
+      <span id="Dress 3">0</span>
+      <button onclick="changeQty('Dress 3', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="images/dress4.jpg" alt="Dress 4">
+    <p>Dress 4</p>
+    <div class="counter">
+      <button onclick="changeQty('Dress 4', -1)">-</button>
+      <span id="Dress 4">0</span>
+      <button onclick="changeQty('Dress 4', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="images/dress5.jpg" alt="Dress 5">
+    <p>Dress 5</p>
+    <div class="counter">
+      <button onclick="changeQty('Dress 5', -1)">-</button>
+      <span id="Dress 5">0</span>
+      <button onclick="changeQty('Dress 5', 1)">+</button>
+    </div>
+  </div>
+
+</div>
+
+<button onclick="addSelectedToCart()">Add to Cart</button>
+
+<script src="script.js"></script>
+
+<script>
+  restoreSelections();
+</script>
+
+</body>
+</html>

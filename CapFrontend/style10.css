@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI, Arial, sans-serif;
+}
+
+/* BODY BACKGROUND */
+body {
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("pngtree-nature-forest-sun-ecology-image_2256183.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+/* NAV LINKS */
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #00d4ff;
+}
+
+/* SEARCH BOX */
+.search input{
+    padding: 6px 8px;
+    border: none;
+    outline: none;
+}
+
+.search button{
+    padding: 7px 12px;
+    border: none;
+    background: #00d4ff;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search button:hover{
+    background: #00aacc;
+}
+
+
+/* ================= HERO SECTION ================= */
+
+.hero{
+    position: relative;              /* IMPORTANT */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding: 0 60px;
+}
+
+
+/* LEFT TEXT */
+
+.text h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.text span{
+    color: #00d4ff;
+}
+
+.text p{
+    margin: 20px 0;
+    max-width: 420px;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+/* BUTTON */
+.btn{
+    padding: 12px 22px;
+    border: none;
+    background: #00d4ff;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #00aacc;
+}
+
+
+/* ================= LOGIN CARD ================= */
+
+.card{
+    position: absolute;              /* FLOATING */
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background: white;
+    color: black;
+    padding: 30px;
+    width: 270px;
+
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+/* TITLE */
+.card h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* INPUTS */
+.card input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* LOGIN BUTTON */
+.login{
+    width: 100%;
+    padding: 10px;
+    background: #00d4ff;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.login:hover{
+    background: #00aacc;
+}
+
+/* SIGNUP TEXT */
+.new{
+    margin-top: 12px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.new span{
+    color: #00aacc;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropbtn{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background: #f1f1f1;
+}
+
+/* SHOW DROPDOWN ON HOVER */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
