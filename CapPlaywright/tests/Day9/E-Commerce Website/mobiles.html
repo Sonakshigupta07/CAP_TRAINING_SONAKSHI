@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobiles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Mobile Collection</h2>
+
+<div class="product-container">
+
+  <div class="product">
+    <img src="images/mobile1.jpg" alt="Mobile 1">
+    <p>Mobile 1</p>
+    <div class="counter">
+      <button onclick="changeQty('Mobile 1', -1)">-</button>
+      <span id="Mobile 1">0</span>
+      <button onclick="changeQty('Mobile 1', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="images/mobile2.jpg" alt="Mobile 2">
+    <p>Mobile 2</p>
+    <div class="counter">
+      <button onclick="changeQty('Mobile 2', -1)">-</button>
+      <span id="Mobile 2">0</span>
+      <button onclick="changeQty('Mobile 2', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="images/mobile3.jpg" alt="Mobile 3">
+    <p>Mobile 3</p>
+    <div class="counter">
+      <button onclick="changeQty('Mobile 3', -1)">-</button>
+      <span id="Mobile 3">0</span>
+      <button onclick="changeQty('Mobile 3', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="images/mobile4.jpg" alt="Mobile 4">
+    <p>Mobile 4</p>
+    <div class="counter">
+      <button onclick="changeQty('Mobile 4', -1)">-</button>
+      <span id="Mobile 4">0</span>
+      <button onclick="changeQty('Mobile 4', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="images/mobile5.jpg" alt="Mobile 5">
+    <p>Mobile 5</p>
+    <div class="counter">
+      <button onclick="changeQty('Mobile 5', -1)">-</button>
+      <span id="Mobile 5">0</span>
+      <button onclick="changeQty('Mobile 5', 1)">+</button>
+    </div>
+  </div>
+
+</div>
+
+<button onclick="addSelectedToCart()">Add to Cart</button>
+
+<script src="script.js"></script>
+
+<script>
+  restoreSelections();
+</script>
+</body>
+</html>
