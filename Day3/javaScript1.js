@@ -53,8 +53,29 @@
 // g=43;
 // console.log(g);
 
-function greet(){
-    console.log("Hiiii");   
+// function greet(){
+//     console.log("Hiiii");   
+// }
+
+// console.log(greet instanceof Object);
+
+let arr=[10,20,30,60,567]
+
+let obj={
+    key1:"value1",
+    key2:"value2",
 }
 
-console.log(greet instanceof Object);
+for(let i in arr){
+    console.log(i," - ",arr[i]);
+}
+
+// for(let i of obj){
+//     console.log(i);
+    
+// }
+
+for(let ch in obj){
+    console.log(ch);
+    console.log(obj[ch]);
+}
