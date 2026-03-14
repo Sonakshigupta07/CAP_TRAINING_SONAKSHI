@@ -45,3 +45,11 @@ test("Multiple events", async ({ browser }) => {
   // console.log(await page2.url())
 
 })
+
+// await page.goto('https://demoapps.qspiders.com/ui/download?sublist=0')
+// await page.locator('//textarea[@class="w-full h-40 p-2 border rounded-lg mb-4"]').fill('hellooo')
+// await page.locator('#fileName').fill('hello.txt')
+// let [page2]=await Promise.all([
+// page.waitForEvent("download"),
+// page.locator('#downloadButton').click()
+// ])
