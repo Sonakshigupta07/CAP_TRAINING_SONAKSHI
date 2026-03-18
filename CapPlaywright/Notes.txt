@@ -10,3 +10,4 @@ npx playwright test --project=chromium --headed
 npx playwright test tests/annotation.spec.ts --project=chromium
 npx playwright test tests/test2.spec.ts --debug
 npx playwright show-report --port=9999
+npx playwright test --project=chromium --project=webkit
