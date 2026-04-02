@@ -33,3 +33,21 @@ test("Page waits",async({browser})=>{
     
 })
 
+///////----->> TYPE 3 ------->>
+test.only("Without promise.all", async ({ browser }) => {
+  let context = await browser.newContext();
+  let page = await context.newPage();
+
+  await page.goto("https://www.flipkart.com/");
+
+  await page.locator('//span[@role="button"]').click();
+  await page.getByPlaceholder("Search for Products, Brands and More").first().fill("shoes");
+
+  await page.keyboard.press("Enter");
+
+  const navigationPromise = page.waitForNavigation();
+  await page.locator('//img[@class="MZeksS"]').first().click();
+  await navigationPromise;
+
+  console.log(await page.url());
+});
