@@ -4,6 +4,8 @@
 // let a=10
 // a=20
 // // a="hiii" 
+
+
 // //// TYPE ANNOTATION
 // let b:string="Hello"
 // // b=20
